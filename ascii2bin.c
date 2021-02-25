@@ -19,7 +19,7 @@ int main (int argc, char * argv[], char ** envp) {
 
   char string[maxint];
   read(0, &string, maxint);
-  printf(string); // CHECK IF IT MATCHES BINARY STRING
+  printf("%s", string); // CHECK IF IT MATCHES BINARY STRING
   int length = 0;
 
   for (int x = 0; x < maxint; x++) {
