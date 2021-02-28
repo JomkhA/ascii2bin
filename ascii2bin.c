@@ -17,7 +17,7 @@ int main (int argc, char * argv[], char ** envp) {
 
   int ascii_value;
   int offset = 48;
-  int number = 0;
+  long long int number = 0;
   int count = 0;
 
   int retval = read(0, &ascii_value, 1);
