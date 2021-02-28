@@ -1,0 +1,22 @@
+Script started on Sun 28 Feb 2021 03:13:59 PM PST
+]0;aj521792@ssh: ~/comp122/ascii2bin.c/ascii2bin[01;32maj521792@ssh[00m:[01;34m~/comp122/ascii2bin.c/ascii2bin[00m$ ascii2bin
+1 0101
+Integer: 5
+]0;aj521792@ssh: ~/comp122/ascii2bin.c/ascii2bin[01;32maj521792@ssh[00m:[01;34m~/comp122/ascii2bin.c/ascii2bin[00m$ cat 54356.txt  | ./ascii2bin ; echo $?
+Integer: 54356
+0
+]0;aj521792@ssh: ~/comp122/ascii2bin.c/ascii2bin[01;32maj521792@ssh[00m:[01;34m~/comp122/ascii2bin.c/ascii2bin[00m$ cat 138.txt | ./ascii2bin ; echo $?
+Integer: 138
+0
+]0;aj521792@ssh: ~/comp122/ascii2bin.c/ascii2bin[01;32maj521792@ssh[00m:[01;34m~/comp122/ascii2bin.c/ascii2bin[00m$ cat 2863311530.txt | ./ascii2bin ; echo $?
+Integer: 2863311530
+0
+]0;aj521792@ssh: ~/comp122/ascii2bin.c/ascii2bin[01;32maj521792@ssh[00m:[01;34m~/comp122/ascii2bin.c/ascii2bin[00m$ cat 4294967295.txt | ./ascii2bin ; echo $?
+Integer: 4294967295
+0
+]0;aj521792@ssh: ~/comp122/ascii2bin.c/ascii2bin[01;32maj521792@ssh[00m:[01;34m~/comp122/ascii2bin.c/ascii2bin[00m$ cat error.txt | ./ascii2bin ; echo $?
+Error, invalid input!1
+]0;aj521792@ssh: ~/comp122/ascii2bin.c/ascii2bin[01;32maj521792@ssh[00m:[01;34m~/comp122/ascii2bin.c/ascii2bin[00m$ exit
+exit
+
+Script done on Sun 28 Feb 2021 03:14:48 PM PST
